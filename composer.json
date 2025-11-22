@@ -10,13 +10,13 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "SecurityLabs\\LaravelSecurityChecker\\": "src/"
+      "SecurityLabs\\LaravelSecuritySuite\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "SecurityLabs\\LaravelSecurityChecker\\SecurityCheckerServiceProvider"
+        "SecurityLabs\\LaravelSecuritySuite\\SecuritySuiteServiceProvider"
       ]
     }
   },
