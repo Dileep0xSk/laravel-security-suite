@@ -2,6 +2,7 @@
 
 namespace SecurityLabs\LaravelSecuritySuite\Commands;
 
+use Illuminate\Console\Command;
 use SecurityLabs\LaravelSecuritySuite\Scanners\FilesystemScanner;
 use SecurityLabs\LaravelSecuritySuite\Scanners\EnvironmentScanner;
 use SecurityLabs\LaravelSecuritySuite\Scanners\RouteScanner;
