@@ -1,5 +1,5 @@
 {
-  "name": "lap-001/laravel-security-checker",
+  "name": "securitylabs/laravel-security-suite",
   "description": "A full Laravel security auditing package that checks filesystem permissions, environment settings, routes, Docker configuration, and scans for malware to help protect your application from misconfigurations and vulnerabilities.",
   "type": "library",
   "require": {
@@ -16,7 +16,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "SecurityLabs\\SecuritySuite\\SecuritySuiteServiceProvider"
+        "SecurityLabs\\LaravelSecurityChecker\\SecurityCheckerServiceProvider"
       ]
     }
   },
