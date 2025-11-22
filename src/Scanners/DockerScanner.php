@@ -1,6 +1,6 @@
 <?php
 
-namespace SecurityLabs\LaravelSecurityChecker\Scanners;
+namespace SecurityLabs\LaravelSecuritySuite\Scanners;
 
 class DockerScanner extends BaseScanner
 {

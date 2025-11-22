@@ -1,14 +1,14 @@
 <?php
 
-namespace SecurityLabs\LaravelSecurityChecker\Commands;
+namespace SecurityLabs\LaravelSecuritySuite\Commands;
 
 use Illuminate\Console\Command;
-use SecurityLabs\LaravelSecurityChecker\Scanners\FilesystemScanner;
-use SecurityLabs\LaravelSecurityChecker\Scanners\EnvironmentScanner;
-use SecurityLabs\LaravelSecurityChecker\Scanners\RouteScanner;
-use SecurityLabs\LaravelSecurityChecker\Scanners\MalwareScanner;
-use SecurityLabs\LaravelSecurityChecker\Scanners\DockerScanner;
-use SecurityLabs\LaravelSecurityChecker\Scanners\ConfigScanner;
+use SecurityLabs\LaravelSecuritySuite\Scanners\FilesystemScanner;
+use SecurityLabs\LaravelSecuritySuite\Scanners\EnvironmentScanner;
+use SecurityLabs\LaravelSecuritySuite\Scanners\RouteScanner;
+use SecurityLabs\LaravelSecuritySuite\Scanners\MalwareScanner;
+use SecurityLabs\LaravelSecuritySuite\Scanners\DockerScanner;
+use SecurityLabs\LaravelSecuritySuite\Scanners\ConfigScanner;
 
 class RunSecurityScan extends Command
 {
