@@ -2,6 +2,7 @@
 
 namespace SecurityLabs\LaravelSecuritySuite\Scanners;
 
+
 abstract class BaseScanner
 {
     protected $cmd;

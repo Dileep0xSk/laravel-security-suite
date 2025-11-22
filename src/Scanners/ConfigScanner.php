@@ -2,6 +2,7 @@
 
 namespace SecurityLabs\LaravelSecuritySuite\Scanners;
 
+
 class ConfigScanner extends BaseScanner
 {
     public function run()

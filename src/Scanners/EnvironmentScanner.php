@@ -2,6 +2,7 @@
 
 namespace SecurityLabs\LaravelSecuritySuite\Scanners;
 
+
 class EnvironmentScanner extends BaseScanner
 {
     public function run()

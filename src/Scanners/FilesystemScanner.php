@@ -2,6 +2,7 @@
 
 namespace SecurityLabs\LaravelSecuritySuite\Scanners;
 
+
 class FilesystemScanner extends BaseScanner
 {
     public function run()

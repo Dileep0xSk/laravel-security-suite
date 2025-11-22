@@ -2,6 +2,7 @@
 
 namespace SecurityLabs\LaravelSecuritySuite\Scanners;
 
+
 class RouteScanner extends BaseScanner
 {
     public function run()

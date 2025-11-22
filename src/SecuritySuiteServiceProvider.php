@@ -10,8 +10,8 @@ class SecuritySuiteServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/security-checker.php',
-            'security-checker'
+            __DIR__ . '/../config/security-suite.php',
+            'security-suite'
         );
     }
 
@@ -20,8 +20,8 @@ class SecuritySuiteServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
 
             $this->publishes([
-                __DIR__ . '/../config/security-checker.php' => config_path('security-checker.php'),
-            ], 'security-checker-config');
+                __DIR__ . '/../config/security-suite.php' => config_path('security-suite.php'),
+            ], 'security-suite-config');
 
             $this->commands([
                 RunSecurityScan::class,
